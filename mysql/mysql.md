@@ -48,8 +48,6 @@ collation_connection/collation_database/collation_server如果是utf8mb4_general
 但必须保证:  character_set_client/character_se_connection/character_set_database/character_set_results/character_set_server为utf8mb4。
 
 
-注意: 这里出现的结果，肯能和阿里云出现的不一样，我的阿里云是这样的，但是也能够成功
-
 ---+
 | character_set_client     | utf8                                |
 | character_set_connection | utf8                                |
