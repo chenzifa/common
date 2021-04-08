@@ -1,6 +1,6 @@
 mysql表情乱码处理
 ======
-- 改变数据库编码
+- 将数据库导出、并改变数据库编码
 
 修改mysql的配置文件/etc/mysql/my.cnf, 添加如下内容
 ```ini
@@ -67,4 +67,4 @@ collation_connection/collation_database/collation_server如果是utf8mb4_general
 
 ```
 
-` 将数据库导出，更改sql编码，重新建库导入
+- 将导出数据库，更改sql编码，重新建库导入
